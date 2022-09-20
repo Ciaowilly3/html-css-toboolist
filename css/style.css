@@ -1,3 +1,4 @@
+/* setto il font e uso il body per lo sfondo della pagina */
 *{
     font-family: sans-serif;
 }
@@ -5,6 +6,8 @@ body{
     background-color: rgb(251, 247, 242);
     margin: 0px;
 }
+
+/* stili per posizionare l'header nel modo corretto */
 header{
     background-color: white;
     padding: 10px;
@@ -17,4 +20,34 @@ h1{
     margin: 0em;
     margin-left: 50px;
     padding-bottom: 10px;
+}
+
+/* centro il main */
+
+main{
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    
+}
+
+/* sfrutto le conoscenze apprese riguardo i bordi per creare la nav */
+main > nav{
+    border-bottom: 1px solid rgb(251, 247, 242);
+    padding: 15px 50px;
+}
+.button1{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 10px;
+    border-color: transparent;
+}
+.button2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(213, 213, 213);
+    border-radius: 5px;
+    padding: 6px 10px;
+    border-color: rgb(213, 213, 213);
 }
