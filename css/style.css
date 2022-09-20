@@ -2,6 +2,7 @@
 *{
     font-family: sans-serif;
 }
+
 body{
     background-color: rgb(251, 247, 242);
     margin: 0px;
@@ -15,6 +16,7 @@ header{
     background-repeat: no-repeat;
     background-position: 10px;
 }
+
 h1{
     font-size: 2.5em;
     margin: 0em;
@@ -37,6 +39,7 @@ main > nav{
     border-bottom: 1px solid rgb(251, 247, 242);
     padding: 15px 50px;
 }
+
 .button1{
     background-color: cornflowerblue;
     color: white;
@@ -44,6 +47,7 @@ main > nav{
     padding: 6px 10px;
     border-color: transparent;
 }
+
 .button2{
     background-color: rgb(255, 255, 255);
     color: rgb(213, 213, 213);
@@ -70,16 +74,26 @@ simbolo non abbia uguale larghezza e altezza  */
     width: 30px;
     height: 30px;
     color: rgb(3, 174, 3);
-    border-radius: 50%;
     border-color: rgb(3, 174, 3);
+    border-radius: 50%;
     border-style: solid;
     border-width: 1px;
+}
+.cross{
+    font-size: 0.5em;
+    padding: 3px;
+    color: rgb(255 12 12);
+    border-color: rgb(255 12 12);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1.5px;
 }
 .txt{
     color: rgb(76, 76, 76);
     font-weight: bold;
     margin-left: 5px;
 }
+
 .azzurro{
     color: white;
     font-size: 0.7em;
@@ -87,4 +101,32 @@ simbolo non abbia uguale larghezza e altezza  */
     background-color: rgb(64, 163, 225);
     border: solid 3px rgb(64, 163, 225);
     border-radius: 15px;
+}
+
+.viola{
+    color: white;
+    font-size: 0.7em;
+    padding: 4px;
+    background-color: rgb(133 93 149);
+    border: solid 3px rgb(133 93 149);
+    border-radius: 15px;
+}
+.verdeacqua{
+    color: white;
+    font-size: 0.7em;
+    padding: 4px;
+    background-color: rgb(24 177 133);
+    border: solid 3px rgb(24 177 133);
+    border-radius: 15px;
+}
+.Arancione{
+    color: white;
+    font-size: 0.7em;
+    padding: 4px;
+    background-color: rgb(242 149 5);
+    border: solid 3px rgb(242 149 5);
+    border-radius: 15px;
+}
+div{
+    margin-bottom: 20px;
 }
