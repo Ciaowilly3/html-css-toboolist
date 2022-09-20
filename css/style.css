@@ -51,3 +51,40 @@ main > nav{
     padding: 6px 10px;
     border-color: rgb(213, 213, 213);
 }
+
+/* posiziono le section più al centro */
+section{
+    margin: 30px 0px 5px 30px;
+}
+
+/* stili riguardanti il cuore della page */
+h3{
+    color: rgb(65 64 64);
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+/* suppongo che il motivo per il quale venga un'ellisse e non un cerchio sia il fatto che il
+simbolo non abbia uguale larghezza e altezza  */
+.check{
+    width: 30px;
+    height: 30px;
+    color: rgb(3, 174, 3);
+    border-radius: 50%;
+    border-color: rgb(3, 174, 3);
+    border-style: solid;
+    border-width: 1px;
+}
+.txt{
+    color: rgb(76, 76, 76);
+    font-weight: bold;
+    margin-left: 5px;
+}
+.azzurro{
+    color: white;
+    font-size: 0.7em;
+    padding: 4px;
+    background-color: rgb(64, 163, 225);
+    border: solid 3px rgb(64, 163, 225);
+    border-radius: 15px;
+}
