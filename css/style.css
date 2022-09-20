@@ -1,0 +1,20 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(251, 247, 242);
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    background-image: url(../img/logo\ copia.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+h1{
+    font-size: 2.5em;
+    margin: 0em;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
